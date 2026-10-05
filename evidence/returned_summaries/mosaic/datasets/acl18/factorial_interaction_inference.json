@@ -1,0 +1,11 @@
+{
+  "contrast": "loss(full)-loss(own)-loss(market)+loss(base)",
+  "positive_mean_improvement": "negative contrast favors complementarity",
+  "n_common_dates": 286,
+  "mean_improvement": 0.0003806558950943401,
+  "ci_low": -0.001214344760023696,
+  "ci_high": 0.002181590258441602,
+  "p_one_sided": 0.3309770605511262,
+  "hac_standard_error": 0.0008706341748253625,
+  "block_length": 20
+}

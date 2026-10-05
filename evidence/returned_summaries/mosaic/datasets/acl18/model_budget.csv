@@ -1,0 +1,14 @@
+dataset,model,scope,neural_fit,parameters
+acl18,persistence,daily_bar_statistical_control,False,0
+acl18,ewma,daily_bar_statistical_control,False,0
+acl18,har,daily_bar_statistical_control,False,5
+acl18,shar,daily_bar_statistical_control,False,9
+acl18,market_shar,daily_bar_statistical_control,False,15
+acl18,market_shar_interaction,daily_bar_statistical_control,False,16
+acl18,flat_mlp,common_protocol_neural_adaptation,True,225
+acl18,gru,common_protocol_neural_adaptation,True,5281
+acl18,rg_resmoe,common_protocol_neural_adaptation,True,2760
+acl18,mosaic_base,factorial_proposal,True,5
+acl18,mosaic_own,factorial_proposal,True,87
+acl18,mosaic_market,factorial_proposal,True,103
+acl18,mosaic_full,factorial_proposal,True,186

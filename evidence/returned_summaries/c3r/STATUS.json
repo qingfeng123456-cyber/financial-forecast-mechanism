@@ -1,0 +1,10 @@
+{
+  "run_id": "RUN-20260929-082738-C3R",
+  "formal_experiment_completed": true,
+  "failures": [],
+  "completed": 33,
+  "attempted": 33,
+  "registered_fits": 33,
+  "elapsed_hours": 0.5941526988479826,
+  "finished_utc": "2026-09-29T09:03:17.270218+00:00"
+}

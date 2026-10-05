@@ -1,0 +1,14 @@
+{
+  "contrast": "loss(full)-loss(hier)-loss(multi)+loss(base)",
+  "negative_contrast": "complementary loss reduction",
+  "mean_contrast": -4.714645768696024e-05,
+  "contrast_ci_low": -0.00011919015990290026,
+  "contrast_ci_high": 4.100278293357288e-05,
+  "n_common_dates": 247,
+  "mean_improvement": 4.714645768696024e-05,
+  "ci_low": -4.100278293357288e-05,
+  "ci_high": 0.00011919015990290026,
+  "p_one_sided": 0.11475630468403802,
+  "hac_standard_error": 3.923589982273028e-05,
+  "block_length": 20
+}

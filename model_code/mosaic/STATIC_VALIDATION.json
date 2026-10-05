@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-02",
+  "scope": "static only: AST, Ruff, JSON, data hashes, archive CRC",
+  "python_sources_parsed": 9,
+  "ruff": "passed",
+  "bundled_data_sha256": "matched manifest for all three panels",
+  "local_runtime_checks": "not performed: no smoke, model forward, fit, training, backtest or empirical evaluation",
+  "independent_code_review": ".aris/traces/experiment-bridge/2026-10-02_mosaic_static_review/EXPERIMENT_CODE_REVIEW.md"
+}

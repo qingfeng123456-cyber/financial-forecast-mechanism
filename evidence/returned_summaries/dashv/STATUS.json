@@ -1,0 +1,11 @@
+{
+  "run_id": "RUN-20261002-151054-DASHV",
+  "registered_neural_fits": 15,
+  "attempted_neural_fits": 15,
+  "completed_neural_fits": 15,
+  "completed_datasets": 3,
+  "formal_experiment_completed": true,
+  "failures": [],
+  "elapsed_hours": 0.40885935485363006,
+  "finished_utc": "2026-10-02T15:35:25.969411+00:00"
+}

@@ -1,0 +1,7 @@
+dataset,model,model_scope,parameters,training_seconds
+acl18,gru,common_protocol_adaptation,15169,6.772863388061523
+acl18,stockmixer,common_protocol_adaptation,24469,14.040792226791382
+acl18,master,common_protocol_adaptation,86337,11.802603006362915
+acl18,miga,common_protocol_adaptation,69960,11.279207468032837
+acl18,mera,common_protocol_adaptation,62280,9.556083679199219
+acl18,mafs,common_protocol_adaptation,93525,8.446310758590698

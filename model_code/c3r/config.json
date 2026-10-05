@@ -1,0 +1,76 @@
+{
+  "protocol_id": "c3r-moe-v2.0-innovation-coalitions",
+  "seed": 2026,
+  "lookback": 20,
+  "horizon": 5,
+  "hidden_size": 64,
+  "router_hidden_size": 16,
+  "num_experts": 4,
+  "graph_topk": 2,
+  "epochs": 24,
+  "patience": 7,
+  "dates_per_epoch": 192,
+  "valid_dates_per_epoch": 64,
+  "max_assets_per_date": 256,
+  "learning_rate": 0.0005,
+  "weight_decay": 0.0001,
+  "rank_weight": 0.35,
+  "credit_weight": 0.5,
+  "balance_weight": 0.002,
+  "expert_weight": 0.25,
+  "confidence_weight": 0.03,
+  "message_weight": 0.002,
+  "coalition_weight": 0.15,
+  "router_shrinkage": 0.1,
+  "router_fraction": 0.2,
+  "router_epochs": 30,
+  "router_learning_rate": 0.001,
+  "router_cache_dates": 192,
+  "router_temperature": 0.7,
+  "risk_scale_floor": 0.02,
+  "bootstrap_block_length": 20,
+  "transaction_cost_bps": 10.0,
+  "bootstrap_draws": 5000,
+  "tsne_points": 1800,
+  "progress_updates_per_epoch": 10,
+  "datasets": [
+    {
+      "name": "sp500_cc0",
+      "file": "data/sp500_cc0_panel.npz",
+      "train_end": "2018-12-31",
+      "valid_end": "2020-12-31",
+      "test_end": "2024-12-20"
+    },
+    {
+      "name": "kdd17",
+      "file": "data/kdd17_panel.npz",
+      "train_end": "2014-12-31",
+      "valid_end": "2015-12-31",
+      "test_end": "2016-12-30"
+    },
+    {
+      "name": "acl18",
+      "file": "data/acl18_panel.npz",
+      "train_end": "2015-12-31",
+      "valid_end": "2016-06-30",
+      "test_end": "2017-08-25"
+    }
+  ],
+  "baseline_models": [
+    "gru",
+    "stockmixer",
+    "master",
+    "miga",
+    "mera",
+    "mafs"
+  ],
+  "ablation_models": [
+    "c3r_full",
+    "c3r_graph_only",
+    "c3r_credit_only",
+    "c3r_plain_moe"
+  ],
+  "mechanism_models": [
+    "c3r_unprojected"
+  ]
+}

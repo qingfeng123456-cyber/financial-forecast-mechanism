@@ -1,0 +1,85 @@
+{
+  "target": "mean of next five squared adjusted-close daily log returns times 10000",
+  "forecast_origin": "after current close; all features end at or before origin",
+  "test_universe": "past-feature eligibility only, independent of forward-label presence",
+  "feature_names": [
+    "log_own_v1",
+    "log_own_v5",
+    "log_own_v20",
+    "log_own_v60",
+    "log_own_down5",
+    "log_own_down20",
+    "log_range5",
+    "log_range20",
+    "return1_pct",
+    "return5_pct",
+    "volume_z20",
+    "market_beta60",
+    "log_market_v1",
+    "log_market_v5",
+    "log_market_v20",
+    "log_market_down5",
+    "log_market_down20"
+  ],
+  "splits": {
+    "fit": {
+      "dates": 1651,
+      "first": "2007-03-30",
+      "last": "2013-10-17"
+    },
+    "core_valid": {
+      "dates": 293,
+      "first": "2013-10-25",
+      "last": "2014-12-23"
+    },
+    "valid": {
+      "dates": 247,
+      "first": "2015-01-02",
+      "last": "2015-12-23"
+    },
+    "test": {
+      "dates": 247,
+      "first": "2016-01-04",
+      "last": "2016-12-22"
+    }
+  },
+  "feature_mean_from_fit": [
+    -0.6140278577804565,
+    0.5359556674957275,
+    0.7608241438865662,
+    0.8678669333457947,
+    -1.1188476085662842,
+    -0.11956073343753815,
+    1.3394834995269775,
+    1.427514672279358,
+    0.028539089486002922,
+    0.13965420424938202,
+    -0.018757229670882225,
+    0.9999974370002747,
+    -1.448395013809204,
+    -0.17016984522342682,
+    0.029888976365327835,
+    -2.0630202293395996,
+    -0.8449366688728333
+  ],
+  "feature_std_from_fit": [
+    2.6268508434295654,
+    1.3226593732833862,
+    1.1102575063705444,
+    1.0287140607833862,
+    3.059161424636841,
+    1.293824553489685,
+    1.1024551391601562,
+    1.0419714450836182,
+    2.159661054611206,
+    4.4918599128723145,
+    1.075809359550476,
+    0.47954100370407104,
+    2.713099718093872,
+    1.2720295190811157,
+    1.0460213422775269,
+    3.3427064418792725,
+    1.3003898859024048
+  ],
+  "high_stress_threshold_from_fit": 0.3177189826965332
+}

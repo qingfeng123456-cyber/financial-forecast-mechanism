@@ -1,0 +1,14 @@
+dataset,model,scope,neural_fit,parameters
+sp500_cc0,persistence,daily_bar_statistical_control,False,0
+sp500_cc0,ewma,daily_bar_statistical_control,False,0
+sp500_cc0,har,daily_bar_statistical_control,False,5
+sp500_cc0,shar,daily_bar_statistical_control,False,9
+sp500_cc0,market_shar,daily_bar_statistical_control,False,15
+sp500_cc0,market_shar_interaction,daily_bar_statistical_control,False,16
+sp500_cc0,flat_mlp,common_protocol_neural_adaptation,True,225
+sp500_cc0,gru,common_protocol_neural_adaptation,True,5281
+sp500_cc0,rg_resmoe,common_protocol_neural_adaptation,True,2760
+sp500_cc0,mosaic_base,factorial_proposal,True,5
+sp500_cc0,mosaic_own,factorial_proposal,True,87
+sp500_cc0,mosaic_market,factorial_proposal,True,103
+sp500_cc0,mosaic_full,factorial_proposal,True,186

@@ -1,0 +1,7 @@
+dataset,model,model_scope,parameters,training_seconds
+sp500_cc0,gru,common_protocol_adaptation,15169,13.051695108413696
+sp500_cc0,stockmixer,common_protocol_adaptation,24469,10.03720498085022
+sp500_cc0,master,common_protocol_adaptation,86337,12.041064262390137
+sp500_cc0,miga,common_protocol_adaptation,69960,11.932959794998169
+sp500_cc0,mera,common_protocol_adaptation,62280,10.553216457366943
+sp500_cc0,mafs,common_protocol_adaptation,93525,6.769070863723755

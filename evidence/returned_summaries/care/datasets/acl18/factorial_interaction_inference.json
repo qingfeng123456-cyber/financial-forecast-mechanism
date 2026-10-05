@@ -1,0 +1,12 @@
+{
+  "raw_interaction_definition": "loss_full - loss_dual_plain - loss_single_tail + loss_single_plain",
+  "mean_improvement_definition": "negative raw interaction; positive favors beneficial synergy",
+  "mean_improvement": -0.0001604025258519808,
+  "ci_low": -0.00021183278940036868,
+  "ci_high": -0.00011152675124296935,
+  "p_one_sided": 0.9999999998801371,
+  "hac_standard_error": 2.5326213852282692e-05,
+  "hac_z": -6.333458557506552,
+  "n_common_dates": 285,
+  "block_length": 20
+}

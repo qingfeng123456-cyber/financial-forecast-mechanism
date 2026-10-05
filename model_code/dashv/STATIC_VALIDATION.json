@@ -1,0 +1,68 @@
+{
+  "validated_at_utc": "2026-10-02T15:05:31.833012+00:00",
+  "scope": "static-only local validation",
+  "runtime_validation_performed": false,
+  "runtime_validation_location": "AutoDL only",
+  "checks": {
+    "python_ast_parse": {
+      "status": "passed",
+      "files": 10
+    },
+    "ruff": {
+      "status": "passed",
+      "command": "python -m ruff check dashv_autodl"
+    },
+    "json_parse": {
+      "status": "passed",
+      "files": 2
+    },
+    "dataset_hashes": {
+      "status": "passed",
+      "datasets": [
+        {
+          "file": "sp500_cc0_panel.npz",
+          "bytes": 13203212,
+          "sha256": "91185bf2ca299c811064bfc0f04d04ebac6099c4780e42e9b12eeac1e4450381"
+        },
+        {
+          "file": "kdd17_panel.npz",
+          "bytes": 2312100,
+          "sha256": "20f294dc31380de6b17557229f4bed097f8e5be4761d0118d03bf3199b8d1cf0"
+        },
+        {
+          "file": "acl18_panel.npz",
+          "bytes": 2003834,
+          "sha256": "cc98da1e5c7c97d2c464f4854c81c1a4a82b642486f03a898caee84fe54b99ab"
+        }
+      ]
+    },
+    "registered_matrix": {
+      "status": "passed",
+      "panels": 3,
+      "neural_fits": 15,
+      "factorial_cells": 4
+    },
+    "figure_contract": {
+      "status": "passed",
+      "figures_per_panel": 8,
+      "expected_total": 24
+    },
+    "automatic_dependency_installation": {
+      "status": "absent"
+    },
+    "code_review": {
+      "status": "safe_to_package_static_review",
+      "independence": "same-family provisional"
+    }
+  },
+  "not_run_locally": [
+    "pytest",
+    "smoke tests",
+    "package imports",
+    "tensor forwards",
+    "model fitting",
+    "training",
+    "backtests",
+    "empirical evaluation"
+  ]
+}

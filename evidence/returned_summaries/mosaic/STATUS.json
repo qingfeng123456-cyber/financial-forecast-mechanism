@@ -1,0 +1,11 @@
+{
+  "run_id": "RUN-20261002-123004-MOSAIC",
+  "registered_neural_fits": 21,
+  "attempted_neural_fits": 21,
+  "completed_neural_fits": 21,
+  "completed_datasets": 3,
+  "formal_experiment_completed": true,
+  "failures": [],
+  "elapsed_hours": 0.33215763873524135,
+  "finished_utc": "2026-10-02T12:50:00.598865+00:00"
+}

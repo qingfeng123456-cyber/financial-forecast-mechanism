@@ -1,0 +1,164 @@
+\begin{thebibliography}{21}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Corsi(2009)]{corsi2009har}
+Fulvio Corsi.
+\newblock A simple approximate long-memory model of realized volatility.
+\newblock \emph{Journal of Financial Econometrics}, 7\penalty0 (2):\penalty0
+  174--196, 2009.
+\newblock \doi{10.1093/jjfinec/nbp001}.
+
+\bibitem[Diebold and Mariano(1995)]{diebold1995predictive}
+Francis~X. Diebold and Roberto~S. Mariano.
+\newblock Comparing predictive accuracy.
+\newblock \emph{Journal of Business \& Economic Statistics}, 13\penalty0
+  (3):\penalty0 253--263, 1995.
+\newblock \doi{10.1080/07350015.1995.10524599}.
+
+\bibitem[Fan and Shen(2024)]{fan2024stockmixer}
+Jinyong Fan and Yanyan Shen.
+\newblock {StockMixer}: A simple yet strong {MLP}-based architecture for stock
+  price forecasting.
+\newblock In \emph{Proceedings of the AAAI Conference on Artificial
+  Intelligence}, volume~38, pages 8389--8397, 2024.
+\newblock \doi{10.1609/aaai.v38i8.28681}.
+
+\bibitem[Fanelli(2012)]{fanelli2012negative}
+Daniele Fanelli.
+\newblock Negative results are disappearing from most disciplines and
+  countries.
+\newblock \emph{Scientometrics}, 90\penalty0 (3):\penalty0 891--904, 2012.
+\newblock \doi{10.1007/s11192-011-0494-7}.
+
+\bibitem[Feng et~al.(2019)Feng, Chen, He, Ding, Sun, and
+  Chua]{feng2019enhancing}
+Fuli Feng, Huimin Chen, Xiangnan He, Ji~Ding, Maosong Sun, and Tat-Seng Chua.
+\newblock Enhancing stock movement prediction with adversarial training.
+\newblock In \emph{Proceedings of the Twenty-Eighth International Joint
+  Conference on Artificial Intelligence}, pages 5843--5849, 2019.
+\newblock \doi{10.24963/ijcai.2019/810}.
+
+\bibitem[Gama et~al.(2014)Gama, {\v Z}liobait{\.e}, Bifet, Pechenizkiy, and
+  Bouchachia]{gama2014drift}
+Jo{\~a}o Gama, Indr{\.e} {\v Z}liobait{\.e}, Albert Bifet, Mykola Pechenizkiy,
+  and Abdelhamid Bouchachia.
+\newblock A survey on concept drift adaptation.
+\newblock \emph{ACM Computing Surveys}, 46\penalty0 (4):\penalty0 1--37, 2014.
+\newblock \doi{10.1145/2523813}.
+\newblock Article 44.
+
+\bibitem[Gneiting(2011)]{gneiting2011point}
+Tilmann Gneiting.
+\newblock Making and evaluating point forecasts.
+\newblock \emph{Journal of the American Statistical Association}, 106\penalty0
+  (494):\penalty0 746--762, 2011.
+\newblock \doi{10.1198/jasa.2011.r10138}.
+
+\bibitem[Hansen et~al.(2011)Hansen, Lunde, and Nason]{hansen2011mcs}
+Peter~R. Hansen, Asger Lunde, and James~M. Nason.
+\newblock The model confidence set.
+\newblock \emph{Econometrica}, 79\penalty0 (2):\penalty0 453--497, 2011.
+\newblock \doi{10.3982/ECTA5771}.
+
+\bibitem[Harvey et~al.(2016)Harvey, Liu, and Zhu]{harvey2016cross}
+Campbell~R. Harvey, Yan Liu, and Heqing Zhu.
+\newblock \ldots and the cross-section of expected returns.
+\newblock \emph{The Review of Financial Studies}, 29\penalty0 (1):\penalty0
+  5--68, 2016.
+\newblock \doi{10.1093/rfs/hhv059}.
+
+\bibitem[Hou et~al.(2020)Hou, Xue, and Zhang]{hou2020replicating}
+Kewei Hou, Chen Xue, and Lu~Zhang.
+\newblock Replicating anomalies.
+\newblock \emph{The Review of Financial Studies}, 33\penalty0 (5):\penalty0
+  2019--2133, 2020.
+\newblock \doi{10.1093/rfs/hhy131}.
+
+\bibitem[Huang et~al.(2025)Huang, Zhou, Li, Yang, Wang, and
+  Wang]{huang2025mafs}
+Qihe Huang, Zhengyang Zhou, Yangze Li, Kuo Yang, Binwu Wang, and Yang Wang.
+\newblock Many minds, one goal: Time series forecasting via sub-task
+  specialization and inter-agent cooperation.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~38, 2025.
+\newblock \doi{10.52202/085713-5550}.
+
+\bibitem[Jacobs et~al.(1991)Jacobs, Jordan, Nowlan, and
+  Hinton]{jacobs1991mixtures}
+Robert~A. Jacobs, Michael~I. Jordan, Steven~J. Nowlan, and Geoffrey~E. Hinton.
+\newblock Adaptive mixtures of local experts.
+\newblock \emph{Neural Computation}, 3\penalty0 (1):\penalty0 79--87, 1991.
+\newblock \doi{10.1162/neco.1991.3.1.79}.
+
+\bibitem[Joulani et~al.(2013)Joulani, Gy{\"o}rgy, and
+  Szepesv{\'a}ri]{joulani2013delayed}
+Pooria Joulani, Andr{\'a}s Gy{\"o}rgy, and Csaba Szepesv{\'a}ri.
+\newblock Online learning under delayed feedback.
+\newblock In \emph{Proceedings of the 30th International Conference on Machine
+  Learning}, volume~28 of \emph{Proceedings of Machine Learning Research},
+  pages 1453--1461. PMLR, 2013.
+\newblock URL \url{https://proceedings.mlr.press/v28/joulani13.html}.
+
+\bibitem[{Larxel}(n.d.)]{mvd_sp500}
+{Larxel}.
+\newblock {S\&P 500 Stocks (Daily Updated)}.
+\newblock Kaggle, n.d.
+\newblock URL \url{https://www.kaggle.com/datasets/andrewmvd/sp-500-stocks}.
+\newblock Kaggle username: andrewmvd; retrieved 4 October 2026.
+
+\bibitem[Li et~al.(2024)Li, Liu, Shen, Wang, Chen, and Huang]{li2024master}
+Tong Li, Zhaoyang Liu, Yanyan Shen, Xue Wang, Haokun Chen, and Sen Huang.
+\newblock {MASTER}: Market-guided stock transformer for stock price
+  forecasting.
+\newblock In \emph{Proceedings of the AAAI Conference on Artificial
+  Intelligence}, volume~38, pages 162--170, 2024.
+\newblock \doi{10.1609/aaai.v38i1.27767}.
+
+\bibitem[Liu et~al.(2025)Liu, Song, Liu, Li, Dai, Bao, Jiang, and
+  Xia]{liu2025mera}
+YuJun Liu, Chen-Hui Song, Peiyuan Liu, Naiqi Li, Tao Dai, Jigang Bao, Yong
+  Jiang, and Shu-Tao Xia.
+\newblock {MERA}: Mixture of experts with retrieval-augmented representation
+  for modeling diversified stock patterns.
+\newblock In \emph{Companion Proceedings of the ACM on Web Conference 2025},
+  pages 1148--1152, 2025.
+\newblock \doi{10.1145/3701716.3715513}.
+
+\bibitem[Patton(2011)]{patton2011volatility}
+Andrew~J. Patton.
+\newblock Volatility forecast comparison using imperfect volatility proxies.
+\newblock \emph{Journal of Econometrics}, 160\penalty0 (1):\penalty0 246--256,
+  2011.
+\newblock \doi{10.1016/j.jeconom.2010.03.034}.
+
+\bibitem[White(2000)]{white2000reality}
+Halbert White.
+\newblock A reality check for data snooping.
+\newblock \emph{Econometrica}, 68\penalty0 (5):\penalty0 1097--1126, 2000.
+\newblock \doi{10.1111/1468-0262.00152}.
+
+\bibitem[Xu and Cohen(2018)]{xu2018stock}
+Yumo Xu and Shay~B. Cohen.
+\newblock Stock movement prediction from tweets and historical prices.
+\newblock In \emph{Proceedings of the 56th Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 1970--1979,
+  2018.
+\newblock \doi{10.18653/v1/P18-1183}.
+
+\bibitem[Ye and Borde(2026)]{ye2026rgresmoe}
+Junyi Ye and Gargi~Vijay Borde.
+\newblock Regime-gated residual mixture-of-experts for cross-sectional
+  volatility forecasting.
+\newblock arXiv:2608.12251, 2026.
+
+\bibitem[Yu et~al.(2024)Yu, Wu, Wang, and Weng]{yu2024miga}
+Zhaojian Yu, Yinghao Wu, Genesis Wang, and Heming Weng.
+\newblock {MIGA}: Mixture-of-experts with group aggregation for stock market
+  prediction.
+\newblock arXiv:2410.02241, 2024.
+
+\end{thebibliography}

@@ -1,0 +1,27 @@
+{
+  "splits": {
+    "fit": {
+      "count": 667,
+      "first": "2012-10-31",
+      "last": "2015-06-25"
+    },
+    "core_valid": {
+      "count": 119,
+      "first": "2015-07-07",
+      "last": "2015-12-22"
+    },
+    "valid": {
+      "count": 119,
+      "first": "2016-01-04",
+      "last": "2016-06-22"
+    },
+    "test": {
+      "count": 285,
+      "first": "2016-07-01",
+      "last": "2017-08-17"
+    }
+  },
+  "target_scale_from_fit": 0.029209604486823082,
+  "information_clock": "features at origin; retrieved outcomes end strictly before origin",
+  "test_universe": "feature-history eligibility only; target presence does not select assets"
+}

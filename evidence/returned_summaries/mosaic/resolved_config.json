@@ -1,0 +1,59 @@
+{
+  "protocol_id": "mosaic-v1.0-daily-downside-interaction",
+  "seed": 2026,
+  "horizon": 5,
+  "lookback": 60,
+  "epochs": 36,
+  "patience": 8,
+  "dates_per_epoch": 256,
+  "valid_dates_per_epoch": 128,
+  "max_assets_per_date": 256,
+  "learning_rate": 0.0005,
+  "weight_decay": 0.0001,
+  "hidden_size": 32,
+  "bootstrap_draws": 5000,
+  "bootstrap_block_length": 20,
+  "progress_updates_per_epoch": 10,
+  "datasets": [
+    {
+      "name": "sp500_cc0",
+      "file": "data/sp500_cc0_panel.npz",
+      "train_end": "2018-12-31",
+      "valid_end": "2020-12-31",
+      "test_end": "2024-12-20"
+    },
+    {
+      "name": "kdd17",
+      "file": "data/kdd17_panel.npz",
+      "train_end": "2014-12-31",
+      "valid_end": "2015-12-31",
+      "test_end": "2016-12-30"
+    },
+    {
+      "name": "acl18",
+      "file": "data/acl18_panel.npz",
+      "train_end": "2015-12-31",
+      "valid_end": "2016-06-30",
+      "test_end": "2017-08-25"
+    }
+  ],
+  "deterministic_controls": [
+    "persistence",
+    "ewma",
+    "har",
+    "shar",
+    "market_shar",
+    "market_shar_interaction"
+  ],
+  "neural_controls": [
+    "flat_mlp",
+    "gru",
+    "rg_resmoe"
+  ],
+  "factorial_cells": [
+    "mosaic_base",
+    "mosaic_own",
+    "mosaic_market",
+    "mosaic_full"
+  ]
+}

@@ -1,0 +1,11 @@
+dataset,model,scope,parameters,trained
+acl18,historical,empirical_analog_control,0,False
+acl18,market_analog,empirical_analog_control,0,False
+acl18,gru_quantile,common_protocol_adaptation,15299,True
+acl18,stockmixer_quantile,common_protocol_adaptation,24599,True
+acl18,master_quantile,common_protocol_adaptation,86467,True
+acl18,mera_quantile,common_protocol_adaptation,62736,True
+acl18,care_single_plain,proposed_factorial,106142,True
+acl18,care_dual_plain,proposed_factorial,106142,True
+acl18,care_single_tail,proposed_factorial,106142,True
+acl18,care_full,proposed_factorial,106142,True

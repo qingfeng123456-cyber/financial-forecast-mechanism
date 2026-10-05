@@ -1,0 +1,27 @@
+{
+  "scope": "local static-only",
+  "python_ast_files_parsed": 11,
+  "configuration_json_parsed": true,
+  "registered_backbone_fits": 18,
+  "bundled_panel_checksums": [
+    {
+      "file": "sp500_cc0_panel.npz",
+      "sha256": "91185bf2ca299c811064bfc0f04d04ebac6099c4780e42e9b12eeac1e4450381",
+      "bytes": 13203212
+    },
+    {
+      "file": "kdd17_panel.npz",
+      "sha256": "20f294dc31380de6b17557229f4bed097f8e5be4761d0118d03bf3199b8d1cf0",
+      "bytes": 2312100
+    },
+    {
+      "file": "acl18_panel.npz",
+      "sha256": "cc98da1e5c7c97d2c464f4854c81c1a4a82b642486f03a898caee84fe54b99ab",
+      "bytes": 2003834
+    }
+  ],
+  "runtime_checks": "not run locally; deferred to AutoDL",
+  "model_forwards": "not run locally",
+  "training_and_backtests": "not run locally",
+  "code_review": "same-family provisional static PASS after blocking fixes"
+}

@@ -1,0 +1,86 @@
+{
+  "target": "mean of next five squared adjusted-close daily log returns times 10000",
+  "forecast_origin": "after current close; all features end at or before origin",
+  "aggregation_update_clock": "origin o updates states only when o+horizon <= current origin",
+  "test_universe": "past-feature eligibility only, independent of forward-label presence",
+  "feature_names": [
+    "log_own_v1",
+    "log_own_v5",
+    "log_own_v20",
+    "log_own_v60",
+    "log_own_down5",
+    "log_own_down20",
+    "log_range5",
+    "log_range20",
+    "return1_pct",
+    "return5_pct",
+    "volume_z20",
+    "market_beta60",
+    "log_market_v1",
+    "log_market_v5",
+    "log_market_v20",
+    "log_market_down5",
+    "log_market_down20"
+  ],
+  "splits": {
+    "fit": {
+      "dates": 1864,
+      "first": "2010-03-31",
+      "last": "2017-08-23"
+    },
+    "core_valid": {
+      "dates": 330,
+      "first": "2017-08-31",
+      "last": "2018-12-21"
+    },
+    "valid": {
+      "dates": 500,
+      "first": "2019-01-02",
+      "last": "2020-12-23"
+    },
+    "test": {
+      "dates": 994,
+      "first": "2021-01-04",
+      "last": "2024-12-13"
+    }
+  },
+  "feature_mean_from_fit": [
+    -0.7894667983055115,
+    0.40228724479675293,
+    0.6752353310585022,
+    0.7951836585998535,
+    -1.3418819904327393,
+    -0.2445184886455536,
+    1.4123507738113403,
+    1.5114212036132812,
+    0.05895846709609032,
+    0.2945476770401001,
+    -0.019805217161774635,
+    1.0002079010009766,
+    -1.7182334661483765,
+    -0.558297336101532,
+    -0.3431781530380249,
+    -2.4910342693328857,
+    -1.2759501934051514
+  ],
+  "feature_std_from_fit": [
+    2.5998964309692383,
+    1.213047981262207,
+    0.9601119160652161,
+    0.8475304245948792,
+    3.0693864822387695,
+    1.1615846157073975,
+    0.9142739772796631,
+    0.8217855095863342,
+    1.826850414276123,
+    3.9932641983032227,
+    1.069791316986084,
+    0.4326282739639282,
+    2.4584174156188965,
+    1.1080437898635864,
+    0.8510650992393494,
+    3.1042449474334717,
+    1.1488934755325317
+  ],
+  "high_stress_threshold_from_fit": 0.25679755210876465
+}

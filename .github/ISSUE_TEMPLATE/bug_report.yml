@@ -1,0 +1,26 @@
+name: Bug report
+description: Report a reproducible problem in code, evidence packaging, or documentation.
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: dropdown
+    id: study
+    attributes:
+      label: Study
+      options: [C3R, DARC, CARE, MOSAIC, DASH-V, repository-wide]
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Problem
+      description: Describe the observed and expected behavior without including licensed data.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Reproduction information
+      description: Include the command, configuration hash, and relevant error text.
+    validations:
+      required: true

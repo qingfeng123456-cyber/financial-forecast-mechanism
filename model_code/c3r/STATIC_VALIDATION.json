@@ -1,0 +1,124 @@
+{
+  "checked_utc": "2026-09-26T13:40:39.748097+00:00",
+  "protocol_id": "c3r-moe-v2.0-innovation-coalitions",
+  "validation_scope": "static syntax/configuration/data-container/checksum only",
+  "local_runtime_executed": false,
+  "pytest_executed": false,
+  "smoke_executed": false,
+  "forward_executed": false,
+  "model_fit_executed": false,
+  "backtest_executed": false,
+  "static_status": "passed",
+  "backbone_fits": 33,
+  "cached_readout_fits": 12,
+  "source": [
+    {
+      "file": "main.py",
+      "ast": "valid",
+      "sha256": "7964a9f14795f045ee385ab90d15593209907c98de427c9b73695f320b7024c2"
+    },
+    {
+      "file": "src/c3rmoe/__init__.py",
+      "ast": "valid",
+      "sha256": "5aea6262b645ad7a63ad3c69f7470d6dd4d75fc0ca86464d828fb2e1c4b9cf6d"
+    },
+    {
+      "file": "src/c3rmoe/c3r.py",
+      "ast": "valid",
+      "sha256": "590274cf0f4def695c03dd4c7b3c3d5f7982fbe1c57ee772f1651bd815592bc3"
+    },
+    {
+      "file": "src/c3rmoe/config.py",
+      "ast": "valid",
+      "sha256": "9b931504f4d3738276b4164b6ad49e99f578ed20b332d183a0537e730cd5b5ff"
+    },
+    {
+      "file": "src/c3rmoe/data.py",
+      "ast": "valid",
+      "sha256": "b780542f89b2fdddca975c40910e785494a4d711d8fdc9d3fba7d89e9d714d87"
+    },
+    {
+      "file": "src/c3rmoe/losses.py",
+      "ast": "valid",
+      "sha256": "175952626760b3fc07df6a1bce73de46f065a016531daee992855e26676f79b9"
+    },
+    {
+      "file": "src/c3rmoe/metrics.py",
+      "ast": "valid",
+      "sha256": "ad2963a8591a365288b2d44ac0b83174abe8404059c4e488d1b8f80982ab43ae"
+    },
+    {
+      "file": "src/c3rmoe/models.py",
+      "ast": "valid",
+      "sha256": "172e70eb52614de71cbf0188fd3835ef35c637e51d41a4e3c82562d79464a60c"
+    },
+    {
+      "file": "src/c3rmoe/pipeline.py",
+      "ast": "valid",
+      "sha256": "ddd6a567890f5897d5598913db1888714c9aa087bd6c72209787cc255c84c618"
+    },
+    {
+      "file": "src/c3rmoe/preflight.py",
+      "ast": "valid",
+      "sha256": "7b86ed217735d8eaf873509b82d8082253c4cf97c8fafcc20e19a790b2438383"
+    },
+    {
+      "file": "src/c3rmoe/train.py",
+      "ast": "valid",
+      "sha256": "e7e2d1b3507a0c01bc866c47f0d5f4f279abb62b4fab396fe1c959fb60809bbc"
+    },
+    {
+      "file": "src/c3rmoe/visuals.py",
+      "ast": "valid",
+      "sha256": "c42320bd99421efd78dd4853d4fc00e6c26500e4a11bb9b96d4d9291e6c0f386"
+    }
+  ],
+  "datasets": [
+    {
+      "file": "sp500_cc0_panel.npz",
+      "shape": [
+        3768,
+        502,
+        6
+      ],
+      "sha256_verified": true,
+      "date_order": "strictly increasing"
+    },
+    {
+      "file": "kdd17_panel.npz",
+      "shape": [
+        2518,
+        50,
+        6
+      ],
+      "sha256_verified": true,
+      "date_order": "strictly increasing"
+    },
+    {
+      "file": "acl18_panel.npz",
+      "shape": [
+        1258,
+        88,
+        6
+      ],
+      "sha256_verified": true,
+      "date_order": "strictly increasing"
+    }
+  ],
+  "runtime_checks": "Implemented for AutoDL only; not executed locally.",
+  "experiment_figures": 24,
+  "figure_templates": [
+    "factorial_ablation",
+    "message_interventions",
+    "communication_and_abstention",
+    "paired_representation",
+    "communication_credit",
+    "coalition_risk",
+    "routing_behavior",
+    "router_ablations"
+  ],
+  "figure_format": "vector PDF",
+  "baseline_plots": false,
+  "plot_runtime_executed": false,
+  "figure_plan_review": "ARIS same-family/provisional; reviewer findings addressed by local executor"
+}

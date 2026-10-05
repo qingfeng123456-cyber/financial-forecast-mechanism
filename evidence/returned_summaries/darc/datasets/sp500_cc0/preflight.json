@@ -1,0 +1,37 @@
+{
+  "splits": {
+    "train": {
+      "count": 2219,
+      "first": "2010-03-02",
+      "last": "2018-12-20"
+    },
+    "valid": {
+      "count": 499,
+      "first": "2019-01-02",
+      "last": "2020-12-22"
+    },
+    "test": {
+      "count": 993,
+      "first": "2021-01-04",
+      "last": "2024-12-12"
+    },
+    "fit": {
+      "count": 1586,
+      "first": "2010-03-02",
+      "last": "2016-06-16"
+    },
+    "core_valid": {
+      "count": 177,
+      "first": "2016-06-27",
+      "last": "2017-03-09"
+    },
+    "router": {
+      "count": 444,
+      "first": "2017-03-20",
+      "last": "2018-12-20"
+    }
+  },
+  "feature_clock": "input features and retrieval stop at the decision origin",
+  "feedback_clock": "recorded outcomes mature after 6 index steps",
+  "test_universe": "available feature history only; target presence is not a filter"
+}

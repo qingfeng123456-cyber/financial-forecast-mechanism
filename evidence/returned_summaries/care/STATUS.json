@@ -1,0 +1,11 @@
+{
+  "run_id": "RUN-20260930-064205-CARE",
+  "registered_fits": 24,
+  "attempted_fits": 24,
+  "completed_fits": 24,
+  "completed_datasets": 3,
+  "formal_experiment_completed": true,
+  "failures": [],
+  "elapsed_hours": 0.903103605972396,
+  "finished_utc": "2026-09-30T07:36:16.764154+00:00"
+}

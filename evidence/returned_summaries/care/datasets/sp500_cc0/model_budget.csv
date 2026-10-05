@@ -1,0 +1,11 @@
+dataset,model,scope,parameters,trained
+sp500_cc0,historical,empirical_analog_control,0,False
+sp500_cc0,market_analog,empirical_analog_control,0,False
+sp500_cc0,gru_quantile,common_protocol_adaptation,15299,True
+sp500_cc0,stockmixer_quantile,common_protocol_adaptation,24599,True
+sp500_cc0,master_quantile,common_protocol_adaptation,86467,True
+sp500_cc0,mera_quantile,common_protocol_adaptation,62736,True
+sp500_cc0,care_single_plain,proposed_factorial,106142,True
+sp500_cc0,care_dual_plain,proposed_factorial,106142,True
+sp500_cc0,care_single_tail,proposed_factorial,106142,True
+sp500_cc0,care_full,proposed_factorial,106142,True

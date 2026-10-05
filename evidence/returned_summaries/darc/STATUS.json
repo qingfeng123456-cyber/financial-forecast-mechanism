@@ -1,0 +1,11 @@
+{
+  "run_id": "RUN-20260929-120135-DARC",
+  "registered_fits": 18,
+  "attempted_fits": 18,
+  "completed_fits": 18,
+  "completed_datasets": 3,
+  "formal_experiment_completed": true,
+  "failures": [],
+  "elapsed_hours": 0.10800044039885202,
+  "finished_utc": "2026-09-29T12:08:04.426617+00:00"
+}

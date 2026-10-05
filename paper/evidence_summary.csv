@@ -1,0 +1,16 @@
+study,panel,target,primary_metric,full_value,comparator,comparator_value,difference_favoring_full,ci_low,ci_high,full_rank,total_methods,broad_claim_supported
+C3R,sp500_cc0,cross-sectional return ranking,RankIC,0.011042,matched plain router,0.013985,-0.002943,-0.013129,0.007977,,,no
+C3R,kdd17,cross-sectional return ranking,RankIC,0.008322,matched plain router,-0.020126,0.028448,-0.004486,0.072435,,,no
+C3R,acl18,cross-sectional return ranking,RankIC,-0.013615,matched plain router,-0.009691,-0.003923,-0.008186,0.000050,,,no
+DARC,sp500_cc0,cross-sectional return ranking,RankIC,,equal-rank pool,,0.000106,-0.000096,0.000306,,,no
+DARC,kdd17,cross-sectional return ranking,RankIC,,equal-rank pool,,-0.002392,-0.007470,0.000099,,,no
+DARC,acl18,cross-sectional return ranking,RankIC,,equal-rank pool,,-0.000254,-0.001163,0.000236,,,no
+CARE,sp500_cc0,three return quantiles,pinball,0.010245768,MERA quantile,0.010230821,-0.000014947,,,5,10,no
+CARE,kdd17,three return quantiles,pinball,0.007379355,StockMixer quantile,0.007343217,-0.000036138,,,3,10,no
+CARE,acl18,three return quantiles,pinball,0.006513554,MERA quantile,0.006322813,-0.000190741,,,6,10,no
+MOSAIC,sp500_cc0,five-day daily-return variance proxy,QLIKE,,own-family base,,0.004597,,,,8,13,no
+MOSAIC,kdd17,five-day daily-return variance proxy,QLIKE,,own-family base,,0.006089,,,,8,13,no
+MOSAIC,acl18,five-day daily-return variance proxy,QLIKE,,own-family base,,0.004578,,,,8,13,no
+DASH-V,sp500_cc0,five-day daily-return variance proxy,QLIKE,2.194838,validation-selected GRU,2.190088,-0.004751,-0.008012,-0.001825,10,18,no
+DASH-V,kdd17,five-day daily-return variance proxy,QLIKE,1.491663,validation-selected patch transformer,1.492147,0.000484,-0.008797,0.010784,2,18,no
+DASH-V,acl18,five-day daily-return variance proxy,QLIKE,1.217013,validation-selected GRU,1.205955,-0.011058,-0.034257,0.004946,9,18,no

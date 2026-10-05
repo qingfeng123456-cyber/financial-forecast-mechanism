@@ -1,0 +1,73 @@
+{
+  "device": "cuda",
+  "torch": "2.5.1+cu121",
+  "cuda": true,
+  "datasets": [
+    {
+      "file": "sp500_cc0_panel.npz",
+      "sha256": "91185bf2ca299c811064bfc0f04d04ebac6099c4780e42e9b12eeac1e4450381",
+      "shape": [
+        3768,
+        502,
+        6
+      ]
+    },
+    {
+      "file": "kdd17_panel.npz",
+      "sha256": "20f294dc31380de6b17557229f4bed097f8e5be4761d0118d03bf3199b8d1cf0",
+      "shape": [
+        2518,
+        50,
+        6
+      ]
+    },
+    {
+      "file": "acl18_panel.npz",
+      "sha256": "cc98da1e5c7c97d2c464f4854c81c1a4a82b642486f03a898caee84fe54b99ab",
+      "shape": [
+        1258,
+        88,
+        6
+      ]
+    }
+  ],
+  "forward_shapes": {
+    "gru": [
+      9
+    ],
+    "stockmixer": [
+      9
+    ],
+    "master": [
+      9
+    ],
+    "miga": [
+      9
+    ],
+    "mera": [
+      9
+    ],
+    "mafs": [
+      9
+    ],
+    "c3r_full": [
+      9
+    ],
+    "c3r_graph_only": [
+      9
+    ],
+    "c3r_credit_only": [
+      9
+    ],
+    "c3r_plain_moe": [
+      9
+    ],
+    "c3r_unprojected": [
+      9
+    ]
+  },
+  "coalition_invariance": true,
+  "singleton_null_path": true,
+  "asset_permutation_equivariance": true,
+  "router_gradient": true
+}

@@ -1,0 +1,7 @@
+dataset,model,model_scope,parameters,training_seconds
+kdd17,gru,common_protocol_adaptation,15169,7.120956182479858
+kdd17,stockmixer,common_protocol_adaptation,24469,8.11840033531189
+kdd17,master,common_protocol_adaptation,86337,10.506373167037964
+kdd17,miga,common_protocol_adaptation,69960,14.111922979354858
+kdd17,mera,common_protocol_adaptation,62280,10.441359519958496
+kdd17,mafs,common_protocol_adaptation,93525,16.722184896469116

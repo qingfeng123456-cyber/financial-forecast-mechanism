@@ -1,0 +1,57 @@
+{
+  "protocol_id": "care-v2.0-conditional-analog-risk-experts",
+  "seed": 2026,
+  "lookback": 20,
+  "horizon": 5,
+  "hidden_size": 64,
+  "num_experts": 4,
+  "epochs": 36,
+  "patience": 8,
+  "dates_per_epoch": 256,
+  "valid_dates_per_epoch": 128,
+  "max_assets_per_date": 256,
+  "learning_rate": 0.0005,
+  "weight_decay": 0.0001,
+  "balance_weight": 0.002,
+  "retrieval_window_dates": 252,
+  "retrieval_neighbors": 16,
+  "quantiles": [
+    0.1,
+    0.5,
+    0.9
+  ],
+  "bootstrap_block_length": 20,
+  "bootstrap_draws": 5000,
+  "progress_updates_per_epoch": 10,
+  "datasets": [
+    {
+      "name": "sp500_cc0",
+      "file": "data/sp500_cc0_panel.npz",
+      "train_end": "2018-12-31",
+      "valid_end": "2020-12-31",
+      "test_end": "2024-12-20"
+    },
+    {
+      "name": "kdd17",
+      "file": "data/kdd17_panel.npz",
+      "train_end": "2014-12-31",
+      "valid_end": "2015-12-31",
+      "test_end": "2016-12-30"
+    },
+    {
+      "name": "acl18",
+      "file": "data/acl18_panel.npz",
+      "train_end": "2015-12-31",
+      "valid_end": "2016-06-30",
+      "test_end": "2017-08-25"
+    }
+  ],
+  "baseline_models": [
+    "historical",
+    "market_analog",
+    "gru_quantile",
+    "stockmixer_quantile",
+    "master_quantile",
+    "mera_quantile"
+  ]
+}

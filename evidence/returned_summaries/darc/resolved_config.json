@@ -1,0 +1,60 @@
+{
+  "protocol_id": "darc-v1.0-delayed-advantage-rank-council",
+  "seed": 2026,
+  "lookback": 20,
+  "horizon": 5,
+  "hidden_size": 64,
+  "num_experts": 4,
+  "epochs": 18,
+  "patience": 5,
+  "dates_per_epoch": 128,
+  "valid_dates_per_epoch": 64,
+  "max_assets_per_date": 256,
+  "learning_rate": 0.0005,
+  "weight_decay": 0.0001,
+  "rank_weight": 0.35,
+  "balance_weight": 0.002,
+  "router_fraction": 0.2,
+  "calibration_fraction": 0.25,
+  "competence_history_dates": 126,
+  "advantage_history_dates": 126,
+  "evidence_min_dates": 20,
+  "pair_temperature": 0.15,
+  "competence_temperature": 0.05,
+  "advantage_standard_error_floor": 0.02,
+  "bootstrap_block_length": 20,
+  "bootstrap_draws": 5000,
+  "transaction_cost_bps": 10.0,
+  "progress_updates_per_epoch": 10,
+  "datasets": [
+    {
+      "name": "sp500_cc0",
+      "file": "data/sp500_cc0_panel.npz",
+      "train_end": "2018-12-31",
+      "valid_end": "2020-12-31",
+      "test_end": "2024-12-20"
+    },
+    {
+      "name": "kdd17",
+      "file": "data/kdd17_panel.npz",
+      "train_end": "2014-12-31",
+      "valid_end": "2015-12-31",
+      "test_end": "2016-12-30"
+    },
+    {
+      "name": "acl18",
+      "file": "data/acl18_panel.npz",
+      "train_end": "2015-12-31",
+      "valid_end": "2016-06-30",
+      "test_end": "2017-08-25"
+    }
+  ],
+  "baseline_models": [
+    "gru",
+    "stockmixer",
+    "master",
+    "miga",
+    "mera",
+    "mafs"
+  ]
+}

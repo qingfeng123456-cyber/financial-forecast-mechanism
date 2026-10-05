@@ -1,0 +1,59 @@
+{
+  "format": "dates x symbols x OHLCV panel",
+  "columns": [
+    "open",
+    "high",
+    "low",
+    "close",
+    "adj_close",
+    "volume"
+  ],
+  "datasets": [
+    {
+      "file": "sp500_cc0_panel.npz",
+      "dates": 3768,
+      "symbols": 502,
+      "observations": 617831,
+      "first_date": "2010-01-04",
+      "last_date": "2024-12-20",
+      "sha256": "91185bf2ca299c811064bfc0f04d04ebac6099c4780e42e9b12eeac1e4450381",
+      "provenance": {
+        "license": "CC0: Public Domain (dataset metadata)",
+        "source": "Kaggle: S&P 500 Stocks (daily updated), andrewmvd",
+        "source_archive_sha256": "0c50fb48ef5b4a6c0f722e3dfe667c78077185517030f36839aaed3bae9a2d79",
+        "universe_note": "current-constituent panel; historical constituent membership is not claimed"
+      },
+      "source_url": "https://www.kaggle.com/datasets/andrewmvd/sp-500-stocks"
+    },
+    {
+      "file": "kdd17_panel.npz",
+      "dates": 2518,
+      "symbols": 50,
+      "observations": 125900,
+      "first_date": "2007-01-03",
+      "last_date": "2016-12-30",
+      "sha256": "20f294dc31380de6b17557229f4bed097f8e5be4761d0118d03bf3199b8d1cf0",
+      "provenance": {
+        "license_note": "public author research release; underlying market-data rights remain with source",
+        "source": "https://github.com/fulifeng/Adv-ALSTM",
+        "transfer_scope": "private experiment package supplied to the user"
+      },
+      "source_url": "https://github.com/fulifeng/Adv-ALSTM"
+    },
+    {
+      "file": "acl18_panel.npz",
+      "dates": 1258,
+      "symbols": 88,
+      "observations": 108589,
+      "first_date": "2012-09-04",
+      "last_date": "2017-09-01",
+      "sha256": "cc98da1e5c7c97d2c464f4854c81c1a4a82b642486f03a898caee84fe54b99ab",
+      "provenance": {
+        "license_note": "MIT repository; underlying market-data rights remain with source",
+        "source": "https://github.com/yumoxu/stocknet-dataset",
+        "transfer_scope": "private experiment package supplied to the user"
+      },
+      "source_url": "https://github.com/yumoxu/stocknet-dataset"
+    }
+  ]
+}
