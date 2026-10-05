@@ -199,6 +199,42 @@ excluded from the synthesis. Mixed and adverse comparisons remain in the
 study-level CSV and JSON evidence. The fitted-cell total is 111; statistical
 estimation and frozen readouts are additional.
 
+\section{Open-source implementation map}
+
+The public release preserves each historical training package as an independent,
+configuration-fixed program. Table~\ref{tab:code-map} maps the model name used in
+the manuscript to the visible entry point, the file implementing its principal
+mechanism, and the compact evidence returned by the corresponding run. This map
+allows reviewers to distinguish executable model logic from manuscript-level
+interpretation. Dataset arrays and raw checkpoints are excluded because of source
+rights and file size; acquisition records, processed-file hashes, configurations,
+and adverse result summaries remain in the release.
+
+\begin{table}[H]
+\centering
+\scriptsize
+\caption{Implementation-to-evidence traceability in the public repository. Paths are relative to the repository root.}
+\label{tab:code-map}
+\begin{tabular}{p{1.15cm}p{3.05cm}p{4.1cm}p{5.7cm}}
+\toprule
+Study & Entry point & Principal mechanism & Released evidence \tabularnewline
+\midrule
+C3R & \texttt{model\_code/c3r/main.py} & \texttt{src/c3rmoe/c3r.py} & Configuration, training and routing code; panel metrics, paired RankIC inference, factorial interaction, and status files \tabularnewline
+DARC & \texttt{model\_code/darc/main.py} & \texttt{src/darc/council.py} & Frozen-forecast council, pairwise arbitration and gate code; panel metrics, paired RankIC inference, factorial evidence, and status files \tabularnewline
+CARE & \texttt{model\_code/care/main.py} & \texttt{src/care/models.py} & Dual-memory quantile models and routing; panel metrics, paired pinball inference, split records, factorial evidence, and status files \tabularnewline
+MOSAIC & \texttt{model\_code/mosaic/main.py} & \texttt{src/mosaic/models.py} & Positive anchor and correction branches; panel metrics, paired QLIKE inference, model budgets, factorial evidence, and status files \tabularnewline
+DASH-V & \texttt{model\_code/dashv/main.py} & \texttt{src/dashv/aggregate.py} & Delayed partially pooled aggregation; panel metrics, registered and paired QLIKE inference, factorial evidence, and status files \tabularnewline
+\bottomrule
+\end{tabular}
+\end{table}
+
+All five packages keep their original \texttt{python main.py} entry point and
+declare dependencies without installing them. The repository-level static
+validator parses Python and JSON, verifies the release manifest, checks the
+required model files, and rejects committed arrays, checkpoints, logs, or nested
+archives. These checks establish release integrity only; the forecast claims in
+the manuscript remain tied to the returned AutoDL evidence.
+
 \section{Panels and chronological splits}
 
 \begin{table}[H]\centering\small

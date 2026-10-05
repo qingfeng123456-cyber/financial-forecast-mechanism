@@ -1255,13 +1255,13 @@
     },
     {
       "path": "paper/main.pdf",
-      "bytes": 6194477,
-      "sha256": "eb31b7d376fd1ae56f61b714818b02956a4291fbe3cd983a2e81dc37d0c5000a"
+      "bytes": 6193928,
+      "sha256": "25fc3d486511d8e6ed581a052af0f657d9f8a5c06f69b6c69133a0eb0d307f9b"
     },
     {
       "path": "paper/main.tex",
-      "bytes": 48655,
-      "sha256": "24bae79b604fa59cfa5301bcf078184309bc40cb58cdd1eed3beff55ffc2e134"
+      "bytes": 48151,
+      "sha256": "f12b855816115f3ac2de234d793475c2667b1d81d0dc6f53618704838c70baae"
     },
     {
       "path": "paper/mechanism_figure_manifest.csv",
@@ -1335,13 +1335,13 @@
     },
     {
       "path": "paper/supplement.pdf",
-      "bytes": 562138,
-      "sha256": "55339a2a475429c0cf7645bf8499efa69f1857c73575ec3f6cd2e564a7424185"
+      "bytes": 574653,
+      "sha256": "b413315f49d240e70a9edf8d20d6bb7d93f4c1f5a46b95962018c99c40fe70d2"
     },
     {
       "path": "paper/supplement.tex",
-      "bytes": 24278,
-      "sha256": "667cb790066447968f42fc964da779aeccac9e07ace9446f7b05719e207b22bb"
+      "bytes": 26864,
+      "sha256": "50c83f9178bf0016c0689260b08f760a54bf7bcfbee517ea8b2e7279c5a51f8d"
     },
     {
       "path": "paper/uniform_evidence_table.csv",
